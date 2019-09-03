@@ -721,9 +721,12 @@
             .small-desc{
                 padding-top: 20px;
                 text-align: center;
+                margin: 0 auto;
             }
             .long-desc{
                 text-align: center;
+                margin: 0 auto;
+                padding-top:20px; 
             }
         } 
         .home__aboutAyla {
@@ -780,6 +783,7 @@
         .myhavtorn__banner {
             .myhavtorn__banner-img,.myhavtorn__banner-content{
                 width:100%;
+                text-align: center;
             }
         }
         .banner__header{

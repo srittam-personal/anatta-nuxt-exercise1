@@ -4,13 +4,13 @@
   "description": "list of dad jokes",
   "author": "Srittam",
   "private": true,
-  "homepage": "https://github.com/srittam-personal/anatta-nuxt-exercise",
+  "homepage": "https://github.com/srittam-personal/anatta-nuxt-exercise1",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "deploy": "node ./node_modules/vue-gh-pages/index.js"
+    "deploy": "gh-pages -d dist"    
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",

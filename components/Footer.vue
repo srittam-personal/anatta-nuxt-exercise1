@@ -242,11 +242,15 @@
         display: flex;
         justify-content: center;
         padding: 20px 0;
-        background: #4c3737;             
+        background: #4c3737; 
+        align-items: center;            
     }
     ul.footer__bottom-links{
         display: flex;
         justify-content: center;
+        &.mob-only{
+            display: none;
+        }
     }
      .bar{
         padding: 0 10px;
@@ -316,7 +320,12 @@
                     line-height: 70px;
                 }
             }
-        }              
+        } 
+        ul.footer__bottom-links{
+            &.mob-only{
+                display: flex;
+            }
+        }             
     }
     .footer__copyrite{
         text-align: center;
